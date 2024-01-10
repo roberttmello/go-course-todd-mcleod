@@ -1,2 +1,3 @@
-# go-course-todd-mcleod
-Code examples of Todd McLeod Go course
+# Go course Todd Mcleod
+
+Code examples of Todd McLeod Go course!
