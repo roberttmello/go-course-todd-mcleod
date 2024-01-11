@@ -3,6 +3,15 @@ package main
 import "fmt"
 
 func main() {
+	
+	// This is a comment line
+
+	/*
+		This is a 
+		big big
+		block comment
+	*/
+
 	const name, age = "Ted", 28
 	fmt.Println("Hello Gophers!")
 	fmt.Printf("\n")
