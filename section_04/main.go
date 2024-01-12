@@ -42,4 +42,30 @@ func main() {
 	var price2 float64
 
 	fmt.Println(age2, year2, name2, date2, isValid2, price2)
+
+	// Print these values as both binary and hexadecimal
+	a, b, c, d, e, f := 10, 11, 12, 13, 14, 15
+	fmt.Printf("Binary format: %b %b %b %b %b %b\n", a,b,c,d,e,f)
+	fmt.Printf("Hexadecimal format: %x %x %x %x %x %x\n", a,b,c,d,e,f)
+	
+	// Conversions
+	z := 42.0
+	var m float32 = 48.75
+	z = float64(m)
+	fmt.Println(z)
+
+	// Iota
+
+	const (
+		_ = iota
+		foo
+		bar
+		far 
+		fo 
+		ba
+	)
+
+	fmt.Println(foo, bar, far, fo, ba)
+
+
 }
